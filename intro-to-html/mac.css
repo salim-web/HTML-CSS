@@ -1,0 +1,52 @@
+    p {
+        text-align: center;
+        font-family: arial;
+        margin: 7px;
+      }
+
+      .new-line {
+        color: orange;
+      }
+
+      .mac-line {
+        font-size: 21px;
+        font-weight: bold;
+      }
+
+      .pro-line {
+        font-size: 32px;
+        font-weight: bold;   
+      }
+      .price-line {
+        font-size: 18px;
+        margin-bottom: 7px;
+      }
+      .buy-button {
+        display: inline-block;
+        margin-top: 7px;
+        color: white;
+        font-family: arial;
+        font-size: 18px;
+        background-color: rgba(14, 86, 255, 0.902);
+        border: none;
+        padding: 10px 21px;
+        border-radius: 20px;
+        transition: 0.15s;
+      }
+      .buy-button:hover {
+        box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        background-color: rgb(0, 149, 255);
+      }
+
+  .buy-button:active {
+    opacity: 0.7;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 24px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
